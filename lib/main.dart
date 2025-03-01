@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:waseet/core/helper_functions/on_generate_routes.dart';
-
 import 'features/Splash/Presentation/views/Splash_View.dart';
 
 void main() {
