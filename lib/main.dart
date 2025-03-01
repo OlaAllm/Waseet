@@ -12,9 +12,9 @@ class Waseet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-     onGenerateRoute: onGenerateRoute,
+      onGenerateRoute: onGenerateRoute,
       initialRoute: SplashView.routeName,
     );
   }
